@@ -4,7 +4,13 @@
 
 
 ### Setup
-* `sudo pacman -S xorg-xrandr xorg-xinput xorg-xev`
+```
+sudo pacman -S xorg-xrandr xorg-xinput xorg-xev
+git clone https://github.com/Malted-Wheaties/Monitor-Manager.git
+cd Monitor-Manager
+chmod +x ./rotate-monitor.sh
+```
+* Then set the script to run on startup.
 ---
 * `xinput --list`
   * Find the ID corresponding to your mouse and change the value of `MOUSE_ID` accordingly.
