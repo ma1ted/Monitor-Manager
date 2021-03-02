@@ -19,7 +19,7 @@ chmod +x ./rotate-monitor.sh
   * Gets the button ID's for the mouse buttons you intend to use.
   * The logitech G203 has two side buttons with (in my case) ID's 8 & 9, which have been used here.
 ---
-*  `xrandr`
+* `xrandr`
   * Gets the names of the displays you want to control.
   * `SECONDARY_MONITOR` is the name of the display you intend to rotate.
 ---
