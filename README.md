@@ -6,7 +6,7 @@
 ### Setup
 ```
 sudo pacman -S xorg-xrandr xorg-xinput xorg-xev
-git clone https://github.com/Malted-Wheaties/Monitor-Manager.git
+git clone https://github.com/ma1ted/Monitor-Manager.git
 cd Monitor-Manager
 chmod +x ./rotate-monitor.sh
 ```
